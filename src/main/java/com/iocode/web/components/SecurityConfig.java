@@ -29,7 +29,7 @@ import java.util.stream.Stream;
 public class SecurityConfig {
 
     @Autowired
-    private Converter<Jwt, ? extends AbstractAuthenticationToken> jwtConverter;
+    private JwtConverter jwtConverter;
     @Value("${jwkSetUri}")
     private String jwkSetUri;
 
