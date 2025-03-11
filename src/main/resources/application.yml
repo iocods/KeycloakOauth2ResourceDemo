@@ -2,3 +2,5 @@ spring.application.name: OAuth2ResourceDemo
 server.port: 7070
 spring.security.oauth2.resourceserver.jwt.issuer-uri: http://localhost:8080/realms/SpringBootKeyCloakApp/
 jwkSetUri: http://localhost:8080/realms/SpringBootKeyCloakApp/protocol/openid-connect/certs
+clientId: spring_oauth2
+principal: preferred_username
